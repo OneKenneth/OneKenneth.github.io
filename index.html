@@ -57,12 +57,12 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Rechercher"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://OneKenneth.github.io"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://OneKenneth.github.io"></form>
       </div>
     </div>
   </div>
@@ -97,25 +97,25 @@
 <p>2.需要NodeJS环境,可以在<a target="_blank" rel="noopener" href="https://nodejs.org/en">Node.js (nodejs.org)</a>页面下载安装</p>
 <p>以上环境安装,需要自行配置好,此页面不做安装配置讲解!</p>
 <h1 id="1-安装Hexo"><a href="#1-安装Hexo" class="headerlink" title="1.安装Hexo"></a>1.安装Hexo</h1><p>首先可以在我的电脑中任意盘符,新建hexo文件夹,如图所示</p>
-<p><img src="C:\Users\a12345\AppData\Roaming\Typora\typora-user-images\image-20230424111617543.png" alt="image-20230424111617543"></p>
+<p><img src="https://gitee.com/Mr-Zeng12138/images-repo/raw/master/img/image-20230424111617543.png" alt="image-20230424111617543"></p>
 <p>在hexo文件夹下直接鼠标右键,选择Git Bash Here</p>
-<p><img src="C:\Users\a12345\AppData\Roaming\Typora\typora-user-images\image-20230424111758065.png" alt="image-20230424111758065"></p>
-<p><img src="C:\Users\a12345\AppData\Roaming\Typora\typora-user-images\image-20230424111910950.png" alt="image-20230424111910950"></p>
+<p><img src="https://gitee.com/Mr-Zeng12138/images-repo/raw/master/img/image-20230424111758065.png" alt="image-20230424111758065"></p>
+<p><img src="https://gitee.com/Mr-Zeng12138/images-repo/raw/master/img/image-20230424111910950.png" alt="image-20230424111910950"></p>
 <p>在Git命令行窗口执行以下命令</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1.npm install hexo-cli -g</span><br><span class="line">2.hexo init blog</span><br><span class="line">3.cd blog</span><br><span class="line">4.npm install</span><br><span class="line">5.hexo server</span><br></pre></td></tr></table></figure>
 
 <p>依次执行完以上命令后,会在hexo文件夹下生成一个blog文件夹</p>
-<p><img src="C:\Users\a12345\AppData\Roaming\Typora\typora-user-images\image-20230424112930120.png" alt="image-20230424112930120"></p>
+<p><img src="https://gitee.com/Mr-Zeng12138/images-repo/raw/master/img/image-20230424112930120.png" alt="image-20230424112930120"></p>
 <figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">1..deploy_git和.github文件夹都是部署到github和版本控制相关参数</span><br><span class="line">2.node_modules是hexo一些相关依赖模块</span><br><span class="line">3.public存放生成的页面也就是访问的页面</span><br><span class="line">4.scaffolds生成文章模板</span><br><span class="line">5.source用来存放用户的文章</span><br><span class="line">6.themes存放hexo主题</span><br></pre></td></tr></table></figure>
 
-<p>Hexo相关命令:</p>
+<p>Hexo相关命令如下:</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">-d, --deploy	文件生成后立即部署网站</span><br><span class="line">-w, --watch	    监视文件变动</span><br><span class="line">-b, --bail	    生成过程中如果发生任何未处理的异常则抛出异常</span><br><span class="line">-f, --force	    强制重新生成文件 Hexo 引入了差分机制，如果 public 目录存在，那么 hexo g 只会重新生成改动的文件。 使用该参数的效果接近 hexo clean &amp;&amp; hexo generate</span><br><span class="line">-c, --concurrency	最大同时生成文件的数量，默认无限制</span><br><span class="line">-p, --port	        重设端口</span><br><span class="line">-s, --static        只使用静态文件</span><br><span class="line">-l, --log	        启动日记记录，使用覆盖记录格式</span><br></pre></td></tr></table></figure>
 
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://onekenneth.github.io/2023/04/24/%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2/" data-id="clguajzba00004wwgffvgbje5" data-title="初始化博客" class="article-share-link">Partager</a>
+      <a data-url="https://onekenneth.github.io/2023/04/24/%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2/" data-id="clgucc5ip00002gwgelb74zgp" data-title="初始化博客" class="article-share-link">Share</a>
       
       
       
@@ -168,7 +168,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://onekenneth.github.io/2023/04/24/hello-world/" data-id="clguajzbd00014wwg20xgd1qw" data-title="Hello World" class="article-share-link">Partager</a>
+      <a data-url="https://onekenneth.github.io/2023/04/24/hello-world/" data-id="clgucc5it00012gwghribe6ld" data-title="Hello World" class="article-share-link">Share</a>
       
       
       
@@ -191,7 +191,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Mot-clés</h3>
+    <h3 class="widget-title">Tags</h3>
     <div class="widget">
       <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li></ul>
     </div>
@@ -201,7 +201,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Nuage de mot-clés</h3>
+    <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
       <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 10px;">博客</a>
     </div>
@@ -220,7 +220,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
@@ -246,7 +246,7 @@
     <div id="footer-info" class="inner">
       
       &copy; 2023 John Doe<br>
-      Propulsé par <a href="https://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
