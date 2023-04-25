@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>初始化博客</title>
+    <url>/2023/04/24/%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="0-前置内容"><a href="#0-前置内容" class="headerlink" title="0. 前置内容"></a>0. 前置内容</h1><p>1.需要Git环境,可以在<a href="https://git-scm.com/">Git (git-scm.com)</a>页面进行下载安装</p>
+<p>2.需要NodeJS环境,可以在<a href="https://nodejs.org/en">Node.js (nodejs.org)</a>页面下载安装</p>
+<p>以上环境安装,需要自行配置好,此页面不做安装配置讲解!</p>
+<h1 id="1-安装Hexo"><a href="#1-安装Hexo" class="headerlink" title="1.安装Hexo"></a>1.安装Hexo</h1><p>首先可以在我的电脑中任意盘符,新建hexo文件夹,如图所示</p>
+<p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/04/24_15_20_3_image-20230424111617543.png" alt="image-20230424111617543"></p>
+<p>在hexo文件夹下直接鼠标右键,选择Git Bash Here</p>
+<p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/04/24_15_20_14_image-20230424111758065.png" alt="image-20230424111758065"></p>
+<p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/04/24_15_20_18_image-20230424111910950.png" alt="image-20230424111910950"></p>
+<p>在Git命令行窗口执行以下命令</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">1.npm install hexo-cli -g<br>2.hexo init blog<br>3.cd blog<br>4.npm install<br>5.hexo server<br></code></pre></td></tr></table></figure>
+
+<p>依次执行完以上命令后,会在hexo文件夹下生成一个blog文件夹</p>
+<p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/04/24_15_20_25_image-20230424112930120.png" alt="image-20230424112930120"></p>
+<figure class="highlight makefile"><table><tr><td class="code"><pre><code class="hljs makefile">1..deploy_git和.github文件夹都是部署到github和版本控制相关参数<br>2.node_modules是hexo一些相关依赖模块<br>3.public存放生成的页面也就是访问的页面<br>4.scaffolds生成文章模板<br>5.source用来存放用户的文章<br>6.themes存放hexo主题<br></code></pre></td></tr></table></figure>
+
+<p>Hexo相关命令如下:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">-d, --deploy	文件生成后立即部署网站<br>-w, --watch	    监视文件变动<br>-b, --bail	    生成过程中如果发生任何未处理的异常则抛出异常<br>-f, --force	    强制重新生成文件 Hexo 引入了差分机制，如果 public 目录存在，那么 hexo g 只会重新生成改动的文件。 使用该参数的效果接近 hexo clean &amp;&amp; hexo generate<br>-c, --concurrency	最大同时生成文件的数量，默认无限制<br>-p, --port	        重设端口<br>-s, --static        只使用静态文件<br>-l, --log	        启动日记记录，使用覆盖记录格式<br>hexo new            博客名称<br>hexo clean          清理本地缓存<br></code></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>TestPic</title>
     <url>/2023/04/24/TestPic/</url>
     <content><![CDATA[<p>测试上传功能:</p>
@@ -27,31 +53,5 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>初始化博客</title>
-    <url>/2023/04/24/%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="0-前置内容"><a href="#0-前置内容" class="headerlink" title="0. 前置内容"></a>0. 前置内容</h1><p>1.需要Git环境,可以在<a href="https://git-scm.com/">Git (git-scm.com)</a>页面进行下载安装</p>
-<p>2.需要NodeJS环境,可以在<a href="https://nodejs.org/en">Node.js (nodejs.org)</a>页面下载安装</p>
-<p>以上环境安装,需要自行配置好,此页面不做安装配置讲解!</p>
-<h1 id="1-安装Hexo"><a href="#1-安装Hexo" class="headerlink" title="1.安装Hexo"></a>1.安装Hexo</h1><p>首先可以在我的电脑中任意盘符,新建hexo文件夹,如图所示</p>
-<p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/04/24_15_20_3_image-20230424111617543.png" alt="image-20230424111617543"></p>
-<p>在hexo文件夹下直接鼠标右键,选择Git Bash Here</p>
-<p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/04/24_15_20_14_image-20230424111758065.png" alt="image-20230424111758065"></p>
-<p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/04/24_15_20_18_image-20230424111910950.png" alt="image-20230424111910950"></p>
-<p>在Git命令行窗口执行以下命令</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">1.npm install hexo-cli -g<br>2.hexo init blog<br>3.cd blog<br>4.npm install<br>5.hexo server<br></code></pre></td></tr></table></figure>
-
-<p>依次执行完以上命令后,会在hexo文件夹下生成一个blog文件夹</p>
-<p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/04/24_15_20_25_image-20230424112930120.png" alt="image-20230424112930120"></p>
-<figure class="highlight makefile"><table><tr><td class="code"><pre><code class="hljs makefile">1..deploy_git和.github文件夹都是部署到github和版本控制相关参数<br>2.node_modules是hexo一些相关依赖模块<br>3.public存放生成的页面也就是访问的页面<br>4.scaffolds生成文章模板<br>5.source用来存放用户的文章<br>6.themes存放hexo主题<br></code></pre></td></tr></table></figure>
-
-<p>Hexo相关命令如下:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">-d, --deploy	文件生成后立即部署网站<br>-w, --watch	    监视文件变动<br>-b, --bail	    生成过程中如果发生任何未处理的异常则抛出异常<br>-f, --force	    强制重新生成文件 Hexo 引入了差分机制，如果 public 目录存在，那么 hexo g 只会重新生成改动的文件。 使用该参数的效果接近 hexo clean &amp;&amp; hexo generate<br>-c, --concurrency	最大同时生成文件的数量，默认无限制<br>-p, --port	        重设端口<br>-s, --static        只使用静态文件<br>-l, --log	        启动日记记录，使用覆盖记录格式<br></code></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>博客</tag>
-      </tags>
   </entry>
 </search>
