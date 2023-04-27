@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>TestPic</title>
+    <url>/2023/04/24/TestPic/</url>
+    <content><![CDATA[<p>测试上传功能:</p>
+<p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/04/24_15_14_50_image-20230424151450021.png" alt="image-20230424151450021"></p>
+]]></content>
+      <tags>
+        <tag>Test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>初始化博客</title>
     <url>/2023/04/24/%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h1 id="0-前置内容"><a href="#0-前置内容" class="headerlink" title="0. 前置内容"></a>0. 前置内容</h1><p>1.需要Git环境,可以在<a href="https://git-scm.com/">Git (git-scm.com)</a>页面进行下载安装</p>
@@ -24,16 +34,6 @@
 ]]></content>
       <tags>
         <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>TestPic</title>
-    <url>/2023/04/24/TestPic/</url>
-    <content><![CDATA[<p>测试上传功能:</p>
-<p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/04/24_15_14_50_image-20230424151450021.png" alt="image-20230424151450021"></p>
-]]></content>
-      <tags>
-        <tag>Test</tag>
       </tags>
   </entry>
   <entry>
