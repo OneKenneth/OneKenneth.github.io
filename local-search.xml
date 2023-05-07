@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Idea快捷键</title>
+    <link href="/2023/05/07/Idea%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <url>/2023/05/07/Idea%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+    
+    <content type="html"><![CDATA[<p>在日常开发中,熟练的使用 IDE 的快捷键,可以大大提高我们开发效率,IDEA快捷键大全(持续更新)…</p><p>1.最常用的psvm,main生成main方法,sout生成输出</p><p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/05/7_13_11_13_image-20230507131101685.png" alt="image-20230507131101685"></p><p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/05/7_13_12_19_image-20230507131215665.png" alt="image-20230507131215665"></p><p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/05/7_13_13_27_image-20230507131324251.png" alt="image-20230507131324251"></p><p>2.删除所在行:Ctrl+Y</p><p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/05/7_13_31_43_%E5%8A%A8%E7%94%BB.gif" alt="动画"></p><p>3.新建,添加的快捷键:Alt + lnsert</p><p>在代码区使用Alt + lnsert会出现Generate菜单</p><p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/05/7_13_34_21_image-20230507133412150.png" alt="image-20230507133412150"></p><p>在项目区使用Alt + lnsert会出现New</p><p><img src="C:\Users\a12345\AppData\Roaming\Typora\typora-user-images\image-20230507133954512.png" alt="image-20230507133954512"></p><p>4.切换Java源文件:Alt + 右箭头或 Alt + 左箭头</p><p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/05/7_13_58_29_%E5%8A%A8%E7%94%BB.gif" alt="动画"></p><p>5.目录项目关闭:Shift+ESC</p><p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/05/7_14_16_38_%E5%8A%A8%E7%94%BB.gif" alt="动画"></p><p>6.运行:Ctrl + Shift + F10或者是Shift + F10,Debug:Shift + F9</p><p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/05/7_14_29_0_%E5%8A%A8%E7%94%BB.gif" alt="动画"></p><p>7.提示方法的参数:Ctrl + p</p><p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/05/7_14_37_34_%E5%8A%A8%E7%94%BB.gif" alt="动画"></p><p>8.切换窗口:Alt + (数字)</p><p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/05/7_14_43_4_%E5%8A%A8%E7%94%BB.gif" alt="动画"></p><p>9.查找</p><p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/05/7_14_56_56_image-20230507145653428.png" alt="image-20230507145653428"></p><table><thead><tr><th>快捷键</th><th>描述</th></tr></thead><tbody><tr><td>Ctrl + F</td><td>当前文件中查找</td></tr><tr><td>Shift + Shift</td><td>快速查找</td></tr><tr><td>Ctrl + N</td><td>查找Class</td></tr><tr><td>Ctrl + Shift + N</td><td>查找File</td></tr><tr><td>Ctrl + Shift + Alt + N</td><td>查找Symbol</td></tr><tr><td>Ctrl + Shift + A</td><td>查找Actions</td></tr></tbody></table><p>10.跳转切换</p><p><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/05/7_14_58_36_image-20230507145834965.png" alt="image-20230507145834965"></p><table><thead><tr><th><strong>快捷键</strong></th><th>描述</th></tr></thead><tbody><tr><td>Ctrl + E</td><td>最近文件</td></tr><tr><td>Ctrl + Tab</td><td>切换文件</td></tr><tr><td>Ctrl + G</td><td>跳转指定行号</td></tr><tr><td></td><td></td></tr></tbody></table><p>11.编辑和查看相关</p><table><thead><tr><th>快捷键</th><th>描述</th></tr></thead><tbody><tr><td>Ctrl + Alt + T(经常用)</td><td><img src="https://jihulab.com/zrhahaha/mypig/-/raw/main/pictures/2023/05/7_15_11_24_image-20230507151121997.png" alt="image-20230507151121997"></td></tr><tr><td>Shift + Enter</td><td>在当前行之后插入一行</td></tr><tr><td>Ctrl + Alt + Enter</td><td>在当前行之前插入一行</td></tr><tr><td>Ctrl + W</td><td>快速选中</td></tr><tr><td>Alt + 上下方向键</td><td>方法快速跳转</td></tr><tr><td>Ctrl + Z</td><td>撤销</td></tr><tr><td>Ctrl + Shift + Z</td><td>恢复</td></tr><tr><td>Ctrl + H</td><td>类的层级关系</td></tr><tr><td>Ctrl + D</td><td>快速复制(选中块也可以复制)</td></tr></tbody></table>]]></content>
+    
+    
+    <categories>
+      
+      <category>IDEA合集</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>IDEA</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>zookeeper笔记</title>
     <link href="/2023/04/30/zookeeper%E7%AC%94%E8%AE%B0/"/>
     <url>/2023/04/30/zookeeper%E7%AC%94%E8%AE%B0/</url>
